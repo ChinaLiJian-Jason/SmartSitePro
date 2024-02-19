@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56325DA12B81D4B1000BDCF6 /* JPushMsgManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56325DA02B81D4B1000BDCF6 /* JPushMsgManager.swift */; };
+		56325DA32B81DEC1000BDCF6 /* mmexport1663141553196.png in Resources */ = {isa = PBXBuildFile; fileRef = 56325DA22B81DEC1000BDCF6 /* mmexport1663141553196.png */; };
+		5660119C2B5D0F5A002C931E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5660119B2B5D0F5A002C931E /* AppDelegate.swift */; };
+		566011A02B5D0F5A002C931E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5660119F2B5D0F5A002C931E /* ViewController.swift */; };
+		566011A52B5D0F5B002C931E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 566011A42B5D0F5B002C931E /* Assets.xcassets */; };
+		566011A82B5D0F5B002C931E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 566011A62B5D0F5B002C931E /* LaunchScreen.storyboard */; };
+		56C9A7F62B81FC1B00831DF2 /* EWToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C9A7F52B81FC1B00831DF2 /* EWToast.swift */; };
+		B7D17AB700DF5DC02358BE54 /* Pods_SmartSitePro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F2DD3C6160DEDF4818B4BB5 /* Pods_SmartSitePro.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F2DD3C6160DEDF4818B4BB5 /* Pods_SmartSitePro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartSitePro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5260EDE9FE994EAC5D6F2AE0 /* Pods-SmartSitePro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartSitePro.debug.xcconfig"; path = "Target Support Files/Pods-SmartSitePro/Pods-SmartSitePro.debug.xcconfig"; sourceTree = "<group>"; };
+		56325D9F2B81B56E000BDCF6 /* SmartSitePro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SmartSitePro.entitlements; sourceTree = "<group>"; };
+		56325DA02B81D4B1000BDCF6 /* JPushMsgManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPushMsgManager.swift; sourceTree = "<group>"; };
+		56325DA22B81DEC1000BDCF6 /* mmexport1663141553196.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mmexport1663141553196.png; sourceTree = "<group>"; };
+		566011982B5D0F5A002C931E /* SmartSitePro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartSitePro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5660119B2B5D0F5A002C931E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5660119F2B5D0F5A002C931E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		566011A42B5D0F5B002C931E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		566011A72B5D0F5B002C931E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		566011A92B5D0F5B002C931E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56903EE12B6B786B000E64E2 /* SmartSitePro-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmartSitePro-Bridging-Header.h"; sourceTree = "<group>"; };
+		56C9A7F52B81FC1B00831DF2 /* EWToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EWToast.swift; sourceTree = "<group>"; };
+		E5F94C27BBEAE7BE2BBE07DF /* Pods-SmartSitePro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartSitePro.release.xcconfig"; path = "Target Support Files/Pods-SmartSitePro/Pods-SmartSitePro.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		566011952B5D0F5A002C931E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7D17AB700DF5DC02358BE54 /* Pods_SmartSitePro.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5660118F2B5D0F5A002C931E = {
+			isa = PBXGroup;
+			children = (
+				5660119A2B5D0F5A002C931E /* SmartSitePro */,
+				566011992B5D0F5A002C931E /* Products */,
+				649A2E9E339E097467585686 /* Pods */,
+				8D622D7E8F7013BD2C12369B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		566011992B5D0F5A002C931E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				566011982B5D0F5A002C931E /* SmartSitePro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5660119A2B5D0F5A002C931E /* SmartSitePro */ = {
+			isa = PBXGroup;
+			children = (
+				56C9A7F52B81FC1B00831DF2 /* EWToast.swift */,
+				56325DA22B81DEC1000BDCF6 /* mmexport1663141553196.png */,
+				56325D9F2B81B56E000BDCF6 /* SmartSitePro.entitlements */,
+				5660119B2B5D0F5A002C931E /* AppDelegate.swift */,
+				5660119F2B5D0F5A002C931E /* ViewController.swift */,
+				566011A42B5D0F5B002C931E /* Assets.xcassets */,
+				566011A62B5D0F5B002C931E /* LaunchScreen.storyboard */,
+				566011A92B5D0F5B002C931E /* Info.plist */,
+				56903EE12B6B786B000E64E2 /* SmartSitePro-Bridging-Header.h */,
+				56325DA02B81D4B1000BDCF6 /* JPushMsgManager.swift */,
+			);
+			path = SmartSitePro;
+			sourceTree = "<group>";
+		};
+		649A2E9E339E097467585686 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5260EDE9FE994EAC5D6F2AE0 /* Pods-SmartSitePro.debug.xcconfig */,
+				E5F94C27BBEAE7BE2BBE07DF /* Pods-SmartSitePro.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8D622D7E8F7013BD2C12369B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F2DD3C6160DEDF4818B4BB5 /* Pods_SmartSitePro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		566011972B5D0F5A002C931E /* SmartSitePro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 566011AC2B5D0F5B002C931E /* Build configuration list for PBXNativeTarget "SmartSitePro" */;
+			buildPhases = (
+				1A70DC607F693AA62AA4F5D3 /* [CP] Check Pods Manifest.lock */,
+				566011942B5D0F5A002C931E /* Sources */,
+				566011952B5D0F5A002C931E /* Frameworks */,
+				566011962B5D0F5A002C931E /* Resources */,
+				95A02548AB65883ED8028772 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartSitePro;
+			productName = SmartSitePro;
+			productReference = 566011982B5D0F5A002C931E /* SmartSitePro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		566011902B5D0F5A002C931E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					566011972B5D0F5A002C931E = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 566011932B5D0F5A002C931E /* Build configuration list for PBXProject "SmartSitePro" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5660118F2B5D0F5A002C931E;
+			productRefGroup = 566011992B5D0F5A002C931E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				566011972B5D0F5A002C931E /* SmartSitePro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		566011962B5D0F5A002C931E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				566011A82B5D0F5B002C931E /* LaunchScreen.storyboard in Resources */,
+				566011A52B5D0F5B002C931E /* Assets.xcassets in Resources */,
+				56325DA32B81DEC1000BDCF6 /* mmexport1663141553196.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A70DC607F693AA62AA4F5D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartSitePro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95A02548AB65883ED8028772 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartSitePro/Pods-SmartSitePro-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartSitePro/Pods-SmartSitePro-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmartSitePro/Pods-SmartSitePro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		566011942B5D0F5A002C931E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56C9A7F62B81FC1B00831DF2 /* EWToast.swift in Sources */,
+				566011A02B5D0F5A002C931E /* ViewController.swift in Sources */,
+				56325DA12B81D4B1000BDCF6 /* JPushMsgManager.swift in Sources */,
+				5660119C2B5D0F5A002C931E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		566011A62B5D0F5B002C931E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				566011A72B5D0F5B002C931E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		566011AA2B5D0F5B002C931E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		566011AB2B5D0F5B002C931E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		566011AD2B5D0F5B002C931E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5260EDE9FE994EAC5D6F2AE0 /* Pods-SmartSitePro.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SmartSitePro/SmartSitePro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VC4L984J4M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartSitePro/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SCS.SmartConstructionSite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SmartSitePro/SmartSitePro-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		566011AE2B5D0F5B002C931E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5F94C27BBEAE7BE2BBE07DF /* Pods-SmartSitePro.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SmartSitePro/SmartSitePro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VC4L984J4M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartSitePro/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SCS.SmartConstructionSite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SmartSitePro/SmartSitePro-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		566011932B5D0F5A002C931E /* Build configuration list for PBXProject "SmartSitePro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				566011AA2B5D0F5B002C931E /* Debug */,
+				566011AB2B5D0F5B002C931E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		566011AC2B5D0F5B002C931E /* Build configuration list for PBXNativeTarget "SmartSitePro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				566011AD2B5D0F5B002C931E /* Debug */,
+				566011AE2B5D0F5B002C931E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 566011902B5D0F5A002C931E /* Project object */;
+}

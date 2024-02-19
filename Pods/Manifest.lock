@@ -1,0 +1,28 @@
+PODS:
+  - HandyJSON (5.0.2)
+  - JCore (4.4.2)
+  - JPush (5.2.0):
+    - JCore (>= 2.0.0)
+  - SnapKit (5.6.0)
+
+DEPENDENCIES:
+  - HandyJSON
+  - JPush
+  - SnapKit
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - HandyJSON
+    - JCore
+    - JPush
+    - SnapKit
+
+SPEC CHECKSUMS:
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  JCore: 2e7dd256415fb32398489968202c0066ad5c13db
+  JPush: 76668b765fcfd7c15f86b05ca0e5cdc01945ce23
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+
+PODFILE CHECKSUM: 2aeefb8eac5258631ef1201a98a71770dfb5756c
+
+COCOAPODS: 1.12.1

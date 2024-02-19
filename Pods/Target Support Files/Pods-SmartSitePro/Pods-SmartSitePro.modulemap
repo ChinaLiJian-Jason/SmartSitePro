@@ -1,0 +1,6 @@
+framework module Pods_SmartSitePro {
+  umbrella header "Pods-SmartSitePro-umbrella.h"
+
+  export *
+  module * { export * }
+}
