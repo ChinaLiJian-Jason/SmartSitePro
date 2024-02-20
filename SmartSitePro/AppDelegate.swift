@@ -7,11 +7,20 @@
 
 import UIKit
 
+// 维护升级的版本数字
 let latestVersion = 2
-let JPUSH_RID_KEY = "JPUSH_RID_KEY"
+// 极光推送的产品KEY，几乎不会改变
 let JPUSH_KEY = "1bbe5d95adb5e12f8a1118ef"
+// 弹框消息的广播
 let jiGuang_alert_notification_name = "jiGuang_alert_notification_name"
+// 跳转升级链接地址
 let myAppStoreUrl = "itms-apps://itunes.apple.com/app/id6445959156"
+
+// 生产链接
+// let rootUrl: String = "http://hjkjgd.sinochemehc.com/app/#/login"
+//
+// 测试链接
+let rootUrl: String = "http://172.16.95.239/app/#/login"
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {

@@ -12,8 +12,6 @@ import SnapKit
 class ViewController: UIViewController {
     
     var getRidTimes: Int = 1
-    
-    let rootUrl: String = "http://hjkjgd.sinochemehc.com/app/#/login"
     let updateLatestVersionFunc = "iOSUpdateApp"
     let jsJumpPageByJPushFunc = "onPushJG"
   
